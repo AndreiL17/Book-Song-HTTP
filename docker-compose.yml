@@ -1,0 +1,37 @@
+services: # Here we specify what services/containers we want to run. In our case: our API and mariadb as a database.
+
+  api:
+    build: . # Use the Dockerfile we created
+    environment: # Pass the correct environment variables for the API to be able to do its job.
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_USER=${DB_USER}
+      - DB_DATABASE=${DB_DATABASE}
+      # For this docker compose file, docker automatically creates a network (unless specified otherwise)
+      # Inside the docker network that compose creates, we can reach containers by using their service name as hostname.
+      # And because we are inside the network, use the container port from mariadb, not the one we map to the host.
+      - DB_HOST=db
+      - DB_PORT=3306
+    ports: # Expose to the host on port specified
+      - ${SERVER_PORT}:8080
+    depends_on: # Make sure the DB is ready before the API to prevent bean crashes from failed db connections.
+      db:
+        condition: service_healthy
+
+  db:
+    image: mariadb:latest # Use the official mariadb image with the 'latest' tag. Not from any of our dockerfiles.
+    environment:
+      # These environment variables are used as config by the official image to create a db user/pass, schema etc.
+      # on the first-time setup
+      - MARIADB_USER=${DB_USER}
+      - MARIADB_PASSWORD=${DB_PASSWORD}
+      - MARIADB_DATABASE=${DB_DATABASE}
+      - MARIADB_RANDOM_ROOT_PASSWORD=1
+    ports:
+      # Yes, the API uses the container port to connect, so this is not needed at all for the API to work,
+      # but we still open this for DB viewers etc. to connect from outside the docker network. Purely for convenience/development.
+      - ${DB_PORT}:3306
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
