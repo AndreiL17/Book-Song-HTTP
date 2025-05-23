@@ -1,0 +1,6 @@
+/Users/andrei/group-30-project/Albums/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Albums/models/Album.java
+/Users/andrei/group-30-project/Albums/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Albums/services/AlbumService.java
+/Users/andrei/group-30-project/Albums/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Albums/repositories/AlbumRepository.java
+/Users/andrei/group-30-project/Albums/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Albums/controllers/AlbumController.java
+/Users/andrei/group-30-project/Albums/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Albums/interfaces/toJSON.java
+/Users/andrei/group-30-project/Albums/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Albums/interfaces/toCSV.java

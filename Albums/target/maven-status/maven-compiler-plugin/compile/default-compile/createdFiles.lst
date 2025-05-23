@@ -1,0 +1,6 @@
+nl/rug/advancedprogramming/BookReviewAPI/Albums/models/Album.class
+nl/rug/advancedprogramming/BookReviewAPI/Albums/interfaces/toCSV.class
+nl/rug/advancedprogramming/BookReviewAPI/Albums/repositories/AlbumRepository.class
+nl/rug/advancedprogramming/BookReviewAPI/Albums/controllers/AlbumController.class
+nl/rug/advancedprogramming/BookReviewAPI/Albums/services/AlbumService.class
+nl/rug/advancedprogramming/BookReviewAPI/Albums/interfaces/toJSON.class

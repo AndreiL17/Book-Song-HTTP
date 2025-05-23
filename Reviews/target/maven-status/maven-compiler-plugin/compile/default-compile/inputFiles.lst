@@ -1,0 +1,6 @@
+/Users/andrei/group-30-project/Reviews/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Reviews/service/ReviewService.java
+/Users/andrei/group-30-project/Reviews/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Reviews/repository/ReviewRepository.java
+/Users/andrei/group-30-project/Reviews/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Reviews/controller/ReviewController.java
+/Users/andrei/group-30-project/Reviews/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Reviews/interfaces/toJSON.java
+/Users/andrei/group-30-project/Reviews/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Reviews/models/Review.java
+/Users/andrei/group-30-project/Reviews/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Reviews/interfaces/toCSV.java

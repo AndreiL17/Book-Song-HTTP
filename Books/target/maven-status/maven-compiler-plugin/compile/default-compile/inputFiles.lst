@@ -1,0 +1,6 @@
+/Users/andrei/group-30-project/Books/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Books/interfaces/ExportToCSV.java
+/Users/andrei/group-30-project/Books/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Books/controllers/BookController.java
+/Users/andrei/group-30-project/Books/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Books/models/Book.java
+/Users/andrei/group-30-project/Books/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Books/services/BookService.java
+/Users/andrei/group-30-project/Books/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Books/interfaces/ExportToJSON.java
+/Users/andrei/group-30-project/Books/src/main/java/nl/rug/advancedprogramming/BookReviewAPI/Books/repositories/BookRepository.java

@@ -18,8 +18,10 @@
 		<module>Application</module>
 		<module>Books</module>
 		<module>Reviews</module>
+        <module>Songs</module>
 		<module>Albums</module>
-	</modules>
+    </modules>
+		
 	<url/>
 	<licenses>
 		<license/>

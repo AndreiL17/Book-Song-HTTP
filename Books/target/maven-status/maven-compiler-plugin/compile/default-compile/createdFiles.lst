@@ -1,0 +1,7 @@
+nl/rug/advancedprogramming/BookReviewAPI/Books/interfaces/ExportToCSV.class
+nl/rug/advancedprogramming/BookReviewAPI/Books/models/Book.class
+nl/rug/advancedprogramming/BookReviewAPI/Books/interfaces/ExportToJSON.class
+nl/rug/advancedprogramming/BookReviewAPI/Books/services/BookService$1.class
+nl/rug/advancedprogramming/BookReviewAPI/Books/services/BookService.class
+nl/rug/advancedprogramming/BookReviewAPI/Books/repositories/BookRepository.class
+nl/rug/advancedprogramming/BookReviewAPI/Books/controllers/BookController.class
